@@ -7,7 +7,7 @@
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
-    "build": "deno task lume",
+    "build": "deno install && deno task lume",
     "serve": "deno task lume -s",
     "cms": "deno task lume cms"
   },
@@ -26,5 +26,6 @@
     "plugins": [
       "https://deno.land/x/lume@v3.0.4/lint.ts"
     ]
-  }
+  },
+  "nodeModulesDir": "auto"
 }
