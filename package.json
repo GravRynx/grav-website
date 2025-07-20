@@ -1,5 +1,5 @@
 {
-  "name": "gravryn-website",
+  "name": "grav-website",
   "version": "1.0.0",
   "scripts": {
     "build": "bash -c 'curl -fsSL https://deno.land/install.sh | sh && export PATH=\"$HOME/.deno/bin:$PATH\" && deno install && deno task lume'",

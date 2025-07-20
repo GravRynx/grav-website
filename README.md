@@ -1,6 +1,6 @@
-# Gravryn Website
+# Grav Website
 
-A static website for Gravryn, showcasing our Android applications and company information.
+A static website for GravRynx, showcasing links and info.
 
 ## Built With
 
