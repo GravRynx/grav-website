@@ -1,53 +1,37 @@
 layout: layouts/base.vto
 header:
-  title: Gravryn
-  description: Creating innovative Android experiences
-  avatar: /avatar.jpg
+ title: GravRynx
+ description: Game Dev | Building Worlds & Code
+ avatar: /GravRynxAvatar.png
 metas:
-  title: =header.title
-  description: =header.description
-  image: =header.avatar
-  generator: true
-  twitter: ''
+ title: =header.title
+ description: =header.description
+ image: =header.avatar
+ generator: true
+ twitter: '@GravRynx'
 links:
-  - text: support@gravryn.com
-    href: 'mailto:support@gravryn.com'
-    type: ''
-  - type: github
-    text: GitHub
-    href: '#'
-  - text: YouTube
-    href: '#'
-    type: ''
-  - text: Twitch
-    href: '#'
-    type: ''
-  - text: Twitter
-    href: '#'
-    type: ''
+
+ - type: github
+   text: GitHub
+   href: 'https://github.com/GravRynx'
+ - text: YouTube
+   href: 'https://www.youtube.com/@GravRynx'
+   type: youtube
+ - text: Twitch
+   href: 'https://www.twitch.tv/GravRynx'
+   type: twitch
+ - text: X
+   href: 'https://x.com/GravRynx'
+   type: x
+#  - text: Discord
+#    href: 'https://discord.gg/your-server'
+#    type: ''
+ - text: itch.io
+   href: 'https://gravrynx.itch.io'
+   type: itchdotio
+ - text: gravrynx@gmail.com
+   href: 'mailto:gravrynx@gmail.com'
+   type: gmail
 footer: "Powered by [Lume](https://lume.land) & [SimpleMe](https://github.com/lumeland/theme-simple-me) theme"
 extra_head: ''
-content: |
-  ## Our Apps
-
-  ### 📱 Task Manager Pro
-  A powerful productivity app to organize your daily tasks and boost efficiency.
-
-  [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gravryn.taskmanager)
-
-  ### 🎵 Music Player Plus
-  Enhanced music player with equalizer and smart playlists.
-
-  [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gravryn.musicplayer)
-
-  ## About
-
-  We are passionate about creating high-quality Android applications that solve real problems and enhance user experiences. Our focus is on clean design, smooth performance, and user-friendly interfaces.
-
-  ## Privacy Policy
-
-  Your privacy is important to us. We collect minimal data necessary for app functionality and do not share personal information with third parties. For detailed information about our data practices, please contact us.
-
-  ## Terms of Service
-
-  By using our applications, you agree to use them responsibly and in accordance with applicable laws. We reserve the right to update our terms as needed. Contact us for questions about our terms.
+content: 
